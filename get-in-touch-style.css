@@ -1,0 +1,263 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+span{
+    color: #00D1FF;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+li{
+    margin: 14px;
+    width: 40%;
+}
+
+.about-head{
+font-family: Oswald;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 300px;
+color: #FFFFFF;
+text-align: center;
+}
+
+.nav-sec{
+background: #000066;
+overflow: hidden;
+}
+
+.navbar{
+/* border: solid; */
+background-color: none !important;
+border: none !important;
+}
+
+ul{
+display: flex;
+margin: 10px;
+list-style: none;
+color: white;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 100%;
+width: 100%;
+
+}
+
+.about-row{
+background-image: url("./Image/background-img-about.svg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: 700px;
+height: 42vh;
+}
+
+
+.btn{
+padding: 14px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+width: 100%;
+font-size: 18px;
+line-height: 100%;
+text-align: center;
+color: #FFFFFF;
+border-top-left-radius: 20px;
+border-bottom-right-radius: 20px;
+border: solid 1px rgb(54, 54, 221);
+}
+
+.btn:hover{
+color: white;
+}
+
+
+.get-head{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 300px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+/* ANOTHER SECTION */
+
+.flex-container{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 20%;
+}
+
+.flex-container-2{
+    margin-top: 30px;
+    display: flex;
+    margin-left: 20%;
+}
+
+.map-img{
+    margin-left: 74px;
+    width: 600px;
+    height: 380px;
+}
+
+.map-row{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.item1{
+    margin-left: 0px;
+    color: #828282;
+}
+
+.office-line-head{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+    /* margin-left: 60px; */
+}
+.office-head{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 100%;
+    color: #828282;
+    padding-left: 20px;
+}
+
+/* CONTACT SECTION */
+.contact-sec{
+    background: #EAFBFF;
+    padding-bottom: 100px;
+}
+
+.contact-head{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 71px;
+    color: #003399;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+
+
+input[type=text], select, textarea {
+    width: 93%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background: #EAFBFF;
+    outline: none;
+  }
+  
+  input[type=submit] {
+    background: #EAFBFF;
+    width: 13%;
+    color: #003399;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 auto;
+    border: 1px solid #00D1FF;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 30px;
+  }
+  
+  /* input[type=submit]:hover {
+    background-color: #45a049;
+  } */
+  
+
+  /* FOOTER SECTION */
+.footer-sec{
+    background: #000066;
+    padding-bottom: 20px;
+    /* margin-top: 12%; */
+  }
+  hr{
+    background-color: #2c0cbb;
+    margin-top: 50px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer-para{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.396px;
+    color: #A5B0EA;
+}
+
+.footer-link{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    color: white !important;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.fa{
+    padding: 5px;
+    font-size: 17px;
+    width: 26px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 4px;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+.fa-instagram, .fa-facebook, .fa-twitter{
+    background-color: #00D1FF;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
