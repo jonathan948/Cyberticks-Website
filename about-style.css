@@ -19,11 +19,6 @@
         color: white;
         text-decoration: none;
     }
-    
-    li{
-        margin: 14px;
-        width: 40%;
-    }
 
 .about-head{
     font-family: Oswald;
@@ -45,10 +40,14 @@
     background-color: none !important;
     border: none !important;
 }
+li{
+    margin: 20px;
+    /* width: 80%; */
+}
 
 ul{
     display: flex;
-    margin: 10px;
+    margin: 12px;
     list-style: none;
     color: white;
     font-family: Poppins;
@@ -59,7 +58,6 @@ ul{
     width: 100%;
  
 }
-
 .about-row{
     background-image: url("./Image/background-img-about.svg");
     background-repeat: no-repeat;
@@ -68,13 +66,12 @@ ul{
     height: 42vh;
 }
 
-
 .btn{
     padding: 14px;
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
-    width: 190%;
+    width: 100%;
     font-size: 18px;
     line-height: 100%;
     text-align: center;
@@ -94,13 +91,13 @@ ul{
     background: #EAFBFF;
 }
 .about-text {
-    padding: 15%;
+    padding: 70px;
     padding-top: 5rem;
     padding-bottom: 13rem;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 29px;
     text-align: center;
     color: #000000;
@@ -178,7 +175,7 @@ ul{
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 32px;
     text-align: center;
     color: #828282;
@@ -198,7 +195,7 @@ ul{
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 17px;
     line-height: 32px;
     text-align: center;
     color: #828282;
@@ -295,10 +292,15 @@ input[type=text], select, textarea {
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 13px;
     line-height: 24px;
     letter-spacing: 0.396px;
     color: #A5B0EA;
+}
+
+.list{
+    width: 80%;
+    font-size: 15px;
 }
 
 .footer-link{

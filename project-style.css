@@ -1,9 +1,9 @@
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 
 
 span{
@@ -95,122 +95,141 @@ color: white;
     font-weight: normal;
     font-size: 48px;
     line-height: 300px;
-    color: #FFFFFF;
+    color: #00D1FF;
     text-align: center;
 }
 
 
-/* ANOTHER SECTION */
 
-.flex-container{
-    display: flex;
-    margin-top: 50px;
-    margin-left: 20%;
-}
-
-.flex-container-2{
-    margin-top: 30px;
-    display: flex;
-    margin-left: 20%;
-}
-
-.map-img{
-    margin-left: 74px;
-    width: 600px;
-    height: 380px;
-}
-
-.map-row{
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
-}
-
-.item1{
-    margin-left: 0px;
-    color: #828282;
-}
-
-.office-line-head{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 100%;
-    color: #000000;
-    /* margin-left: 60px; */
-}
-.office-head{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 100%;
-    color: #828282;
-    padding-left: 20px;
-}
-
-/* CONTACT SECTION */
-.contact-sec{
+.pro-sec{
     background: #EAFBFF;
-    padding-bottom: 100px;
 }
 
-.contact-head{
+.pro-row{
+    padding-top: 10%;
+}
+
+.item-1, .item-2, .item-3, .item-4, .item-5, .item-6, .item-7, .item-8{
+    width: 100%;
+}
+
+.item-1{
+  margin-left: 1rem;
+  margin-top: 3px;
+}
+
+.item-3, .item-5, .item-7{
+  margin-left: 1rem;
+
+}
+
+.item-2, .item-4, .item-6, .item-8{
+  /* margin-right: 4%; */
+  position: relative;
+  right: 1rem;
+}
+
+.item-2{
+    margin-top: 18%;
+}
+
+.item-5, .item-7, .item-8{
+    position: relative;
+    bottom: 23%;
+}
+
+/* TELL-US-SECTION */
+.tell-us-sec{
+    background: #DAF8FF;
+    padding: 30px;
+    /* margin-top: 30vh; */
+}
+
+.tell-head{
     font-family: Oswald;
     font-style: normal;
     font-weight: normal;
     font-size: 38px;
-    line-height: 71px;
+    line-height: 51px;
     color: #003399;
-    text-align: center;
-    padding-top: 50px;
-    margin-bottom: 40px;
+    padding: 10px;
+    /* padding-left: 19px; */
+}
+
+.item{
+    color: rgb(37, 35, 35);
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.tell-items{
+    display: block;
+    list-style: none;
+    line-height: 30px;
+}
+
+.anoda-span{
+    color: rgb(37, 35, 35);
+    margin-left: 4%;
+    padding: 9px;
+}
+
+th{
+    padding: 10px;
 }
 
 
 input[type=text], select, textarea {
     width: 93%;
-    padding: 12px;
+    padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 1px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-    background: #EAFBFF;
     outline: none;
+    background: #DAF8FF;
   }
   
   input[type=submit] {
-    background: #EAFBFF;
-    width: 13%;
+    padding: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    width: 30%;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
     color: #003399;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin: 0 auto;
-    border: 1px solid #00D1FF;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    margin-top: 30px;
+    border: solid 1px #00D1FF;
+    text-align: center;
+    margin-top: 4%;
+    background: #DAF8FF;
   }
   
-
+ 
   /* FOOTER SECTION */
-.footer-sec{
+
+  .footer-sec{
     background: #000066;
-    padding-bottom: 20px;
-    /* margin-top: 12%; */
+    padding-bottom: 10px;
   }
+
   hr{
     background-color: #2c0cbb;
     margin-top: 50px;
-    width: 90%;
+    width: 89%;
     margin: 0 auto;
 }
 
+ /* .footer-col{
+    width: 1% !important;
+    border-bottom: 1px solid #00D1FF;
+    padding: 3%;
+ } */
 .footer-para{
     font-family: Poppins;
     font-style: normal;
@@ -222,13 +241,19 @@ input[type=text], select, textarea {
 }
 
 .footer-link{
-    width: 80%;
+    width: 90%;
     text-align: center;
     margin: 0 auto;
-    color: white !important;
+    padding: 0px;
     padding-top: 30px;
     padding-bottom: 50px;
+    font-size: 18px;
+}
+
+.fit{
+    margin: 0 auto;
     font-size: 15px;
+
 }
 
 .fa{
@@ -246,15 +271,6 @@ input[type=text], select, textarea {
     background-color: #00D1FF;
     color: white;
 }
-
-
-
-
-
-
-
-
-
 
 
 

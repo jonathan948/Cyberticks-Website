@@ -72,7 +72,8 @@ ul{
 
 /* SERVICE SECTION */
 
-.smart-row, .door-row, .control-row, .curtain-row, .furniture-row, .entertain-row, .hidden-row, .hotel-row{
+.smart-row, .door-row, .control-row, .curtain-row, 
+.furniture-row, .entertain-row, .hidden-row, .hotel-row{
     margin: 0 auto;
     margin-top: 100px;
 }
@@ -81,54 +82,82 @@ ul{
     padding: 6%;
 }
 
-.control-col, .door-col-2, .curtain-col, .fur-col, .enter-col, .hidden-col, .hotel-col{
+.smart-image, .control-image, .furniture-image, .hidden-image, 
+.access-image, .led-image, .system-image, .door-image, .curtain-image,
+ .enter-image, .hotel-image, .cctv-image, .gate-image, .ele-image{           
+    margin: 0 auto;
+    display: block;
+}
+
+.control-col, .door-col-2, .curtain-col, 
+.fur-col, .enter-col, .hidden-col, .hotel-col{
     padding-right: 105px;
     margin: 0 auto;
-
 }
 
 /* {
     padding-right: 12%;
 } */
 
-.smart-head, .door-head, .control-head, .curtain-head, .furniture-head, .entertainment-head, .hidden-head, .hotel-head{
+.smart-head, .door-head, .control-head, .curtain-head, 
+.furniture-head, .entertainment-head, .hidden-head, .hotel-head{
     font-family: Oswald;
     font-style: normal;
     font-weight: normal;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 50px;
     color: #000000;
     margin-top:  38.40px;
+    /* margin-left: 30px; */
 }
 
-.access-head, .CCTV-head, .led-head, .gate-head, .system-head, .ele-head{
+.access-head, .CCTV-head, .led-head,
+ .gate-head, .system-head, .ele-head{
     font-family: Oswald;
     font-style: normal;
     font-weight: normal;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 50px;
     color: #000000;
     margin-top:  48.58px;
 }
 
-.access-para, .CCTV-para, .led-para, .gate-para, .system-para, .ele-para{
+.access-para, .CCTV-para, .led-para, 
+.gate-para, .system-para, .ele-para{
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    line-height: 29px;
-    font-size: 16px;
+    line-height: 24px;
+    font-size: 15px;
     color: #828282;
     margin-top: 5%;
+    /* margin-left: 30%; */
 }
 
-.smart-para, .door-para, .control-para, .curtain-para, .furniture-para, .entertainment-para, .hidden-para, .hotel-para{
+.smart-para, .smart-head{
+  margin-left: 30px;
+}
+
+.door-para, .door-head, .control-para, .control-head, 
+.curtain-para, .curtain-head, .furniture-para, 
+.furniture-head, .entertainment-para, .entertainment-head, 
+.hidden-para, .hidden-head, .hotel-para, .hotel-head, .access-para, 
+.access-head, .CCTV-para, .CCTV-head, .led-head, .led-para, .gate-para,
+ .gate-head, .system-para, .system-head, .ele-para, .ele-head{
+    margin-left: 68px;
+}
+
+.smart-para, .door-para, .control-para, .curtain-para, 
+.furniture-para, .entertainment-para, .hidden-para, .hotel-para{
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    line-height: 29px;
-    font-size: 16px;
+    line-height: 25px;
+    font-size: 15px;
     color: #828282;
     margin-top: 5%;
+    /* margin-left: 30px; */
+
 }
 
 
@@ -162,6 +191,7 @@ ul{
     margin: 0 auto;
     color: white !important;
     padding: 50px;
+    font-size: 15px;
 }
 
 .fa{
