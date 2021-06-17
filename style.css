@@ -7,21 +7,17 @@
 
 #home-page{
     background: #000066;
-    overflow: hidden;
 }
+
 
 /* NAVBER SECTION */
 
 .nav{
-    /* width: 100% !important; */
     margin: 0;
 }
 
 .cyber-logo{
-    margin-right: 20vh;
-    position: relative;
-    right: 1%;
-    /* border: solid; */
+    margin-right: 20%;
 }
 
 .btn:hover{
@@ -77,6 +73,18 @@ ul{
 .second-col{
     display: none;
 }
+
+.mobile-con{
+    display: none;
+}
+
+
+.chat-img{
+    float: right;
+    margin-right: 40%;
+    margin-top: 6px;
+    width: 20%;
+}
 .header-main{
     margin-top: 20%;
     font-family: Oswald;
@@ -85,6 +93,7 @@ ul{
     font-size: 48px;
     line-height: 69px;
     color: #FFFFFF;
+    margin-left: 20%;
     /* margin-left: 16px; */
 }
 
@@ -95,51 +104,36 @@ ul{
     line-height: 32px;
     font-size: 17px;
     color: #A5B0EA;
-    width: 120%;
-    /* margin-left: 16px; */
+    margin-left: 20%;
 }
 
-.circle-imag{
-    background-image: url("./Image/cicle-img.png");
-    background-repeat: no-repeat;
-    background-size: 900vh 900px;
+ .circle-imag{
+    background: linear-gradient(180deg, rgba(0, 51, 153, 0) 14.32%, rgba(0, 51, 153, 0.56) 100%);
     border-radius: 50%;
-    background-position: center;
-    overflow: hidden; 
+    height: 99vh;
     position: relative;
-    left: 12%;
-    width: 800vh;
-    padding: 40px;
-
-}
+    left: 30px;
+} 
 
 .jj-img{
-    width: 69vh;
-    /* margin-left: 60px; */
-    margin-top: 17%;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+    width: 80%;
+    margin-left: 30px;
+    margin-top: 14%;
 }
 
-.chat-img{
-    width: 70px;
-    border-radius: 70px;
-    background-color: white;
-    padding: 13px;
-    line-height: 30px;
-    position: relative;
-    bottom: 4vh;
-}
 .scroll-img{
-    margin-top: 49px;
-    width: 30%;
+    position: relative;
+    top: 10%;
+    /* margin-top: 6px; */
+    width: 20%;
+    margin-left: 21%;
 }
 
 
 .automation-img-1{
-    width: 100%;
+    width: 90%;
     margin-top: 12%;
+    /* margin-left: 20%; */
 }
 
 .automation-img-2{
@@ -147,7 +141,7 @@ ul{
     float: right;
     position: relative;
     bottom:  5%;
-    left: 13%;
+    left: 8%;
 }
 
 .automation-col{
@@ -183,7 +177,8 @@ ul{
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 17px;
+    font-size: 19px;
+    color: yellow;
     line-height: 32px;
     color: #A5B0EA;
 }
@@ -206,7 +201,7 @@ span{
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
-    width: 20%;
+    width: 15%;
     font-size: 18px;
     line-height: 20px;
     text-align: center;
@@ -313,11 +308,6 @@ span{
     width: 90%;
 }
 
-.choose-us-row-mobile{
-    display: none;
-}
-
-
 .choose-us-head{
     font-family: Oswald;
     font-style: normal;
@@ -394,7 +384,7 @@ span{
 
 .client-col{
     background: #003399;
-    border-radius: 100px 0px;
+    border-radius: 50px 0px;
     z-index: -1;
     position: relative;
     right: 16%;
@@ -418,10 +408,18 @@ span{
     /* padding-left: 19px; */
 }
 
+.tell-head-2{
+    display: none;
+}
+
 .item{
     color: rgb(37, 35, 35);
     margin-left: 20px;
     font-size: 16px;
+}
+
+.for-mobile{
+    display: none;
 }
 
 .tell-items{
@@ -478,6 +476,10 @@ input[type=text], select, textarea {
   .footer-sec{
     background: #000066;
     padding-bottom: 10px;
+  }
+
+  .footer-mobile{
+    display: none;
   }
 
   hr{
@@ -546,22 +548,26 @@ ul{
     color: #2c0cbb;
 }
 
-.mobile-sec{
-        display: block;
- }
+.our-service-head{
+    font-size: 33px;
+}
 
- 
-.choose-us-row-mobile{
-    display: block;
+.footer-logo{
+    width: 90%;
+}
+
+.item-imag{
+   width: 150%;
+}
+
+.automation-col{
+    padding-left: 0px;
+    text-align: center;
 }
 
 .automation-img-1{
     width: 100%;
-    margin-top: 18%;
-}
-
-.smart-home, .access, .door, .LED {
-    width: 100%;
+    margin-top: 30%;
 }
 
 .last-col{
@@ -574,60 +580,133 @@ ul{
     margin-top: 50px;
 }
 
-.smart-home:hover, .access:hover, .door:hover, .LED:hover, .light:hover{
-    border-radius: 10px;
-    box-shadow: 5px 10px 18px #dfd3d3;
-}
-
-.our-service-head{
-    font-size: 33px;
-}
-
-  .cyber-logo{
+.cyber-logo{
     position: relative;
     right: 0px;
     width: 145px;
 }
 
-.second-col{
+.view-butn:hover{
+    color: #000066;
+    border: solid 1px #000066;
+}
+
+.item{
+    color: rgb(37, 35, 35);
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.item{
+    color: rgb(37, 35, 35);
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.choose-us-img{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+.jj-img-2{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.mobile-sec, 
+.mobile-con{
+    display: block;
+}
+
+.smart-home, 
+.access, .door, 
+.LED {
+    width: 100%;
+}
+
+.navbar-toggler-icon, 
+.navbar-toggler, 
+.desktop-con{
+   outline: none;
+   border: none;
+}
+
+.second-col, 
+.for-mobile, 
+.footer-mobile{
     display: block;
 }
 
 .smart-home-para-2, 
 .access-parag-2,
- .door-para-2, 
- .led-para-2,
-  .light-para-2{
+.door-para-2, 
+.led-para-2,
+.light-para-2{
     font-size: 12px;
     line-height: 20px;
     color: white;
 }
 
+.smart-home:hover, 
+.access:hover, 
+.door:hover, 
+.LED:hover, 
+.light:hover{
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #dfd3d3;
+}
+
 .smart-home-para-2:hover,
- .access-parag-2:hover, 
- .door-para-2:hover,
-  .led-para-2:hover, 
-  .light-para-2:hover{
+.access-parag-2:hover, 
+.door-para-2:hover,
+.led-para-2:hover, 
+.light-para-2:hover{
     color: #00D1FF;
     cursor: pointer;
     font-size: 12px;
 }
 
-  .line-ban, .header-main,
-   .pra-main, .automatin-butn,
-    .scroll-img, .circle-imag,
-     .automation-img-2, .desktop-sec, .choose-us-row{
-    display: none;
-  }
+.line-ban, 
+.header-main,
+.pra-main,
+.scroll-img,
+.automation-img-2, 
+.desktop-sec, 
+.for-desktop, 
+.footer-desktop, 
+.name-para, .tell-head{
+  display: none;
+}
 
-  .background-col{
-      background-image: url("./Image/house-image.jpg");
-      background-repeat: no-repeat;
-      background-size: 370px;
-      background-position: center;
-      height: 320px;
-      border: solid 1px white;
-  }
+.background-col{
+    background-image: url("./Image/house-image.jpg");
+    background-repeat: no-repeat;
+    background-size: 370px;
+    background-position: center;
+    height: 320px;
+    border: solid 1px white;
+}
+
+.fit{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 34px;
+    letter-spacing: 0.396px;
+    color: #FFFFFF;  
+}
+
+.circle-imag-2{
+    background: linear-gradient(180deg, 
+    rgba(0, 51, 153, 0) 14.32%, 
+    rgba(0, 51, 153, 0.56) 100%);
+    border-radius: 50%;
+    height: 50vh;
+    margin-top: 30%;
+}
 
 .automation-header{
     font-size: 33px;
@@ -638,21 +717,48 @@ ul{
 
 .client-col{
     background: #003399;
-    border-radius: 100px 0px;
+    border-radius: 50px 0px;
     z-index: -1;
     position: relative;
-    right: 16%;
-    width: 100%;
-    border: solid;
+    right: 0%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.client-img{
+    position: relative;
+    left: 0%;
+    top: 10%;
+    margin: 0 auto;
+    display: block;
+  
+}
+
+.tell-head-2{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 51px;
+    color: #003399;
+    /* padding: 10px; */
+    text-align: center;
+    display: block;
 }
 
 .client-para{
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
-    line-height: 20px;
-    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 30px;
+    color: #C1C9F2;
+    padding: 0%  0% 0% 0%;
+    padding: 3%;
+    text-align: center;
+    margin-top: 14%;
+    margin-bottom: 14%;
+
 }
 
 .client-header{
@@ -663,6 +769,17 @@ ul{
     line-height: 71px;
     color: #003399;
     margin-bottom: 50px;
+    text-align: center;
+}
+
+.footer-para{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.396px;
+    color: #A5B0EA;
 }
 
 .choose-us-head{
@@ -676,12 +793,12 @@ ul{
     text-align: center;
 }
 
-.choose-us-para-mobile{
+.choose-us-para{
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 29px;
     text-align: center;
     color: #828282;
     display: block;
@@ -692,10 +809,11 @@ ul{
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 32px;
     text-align: center;
     color: #A5B0EA;
+    padding: 2px;
     margin-bottom: 49px;
 }
 
@@ -720,10 +838,7 @@ ul{
     color: #A5B0EA;
     text-align: center;
 }
-.view-butn:hover{
-    color: #000066;
-    border: solid 1px #000066;
-}
+
 
 .view-butn{
     padding: 14px;
@@ -744,6 +859,15 @@ ul{
     margin-top: 20vh !important;
 }
 
+.automatin-butn{
+    padding: 14px;
+    margin-top: 10vh;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20%;
+    width: 40%;
+}
+
 
 .automatin-butn-2{
     padding: 14px;
@@ -758,6 +882,7 @@ ul{
     display: block;
     margin: 0 auto;
     margin-top: 7%;
+    margin-bottom: 30px;
     color: #FFFFFF;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;

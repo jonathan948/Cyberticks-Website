@@ -99,6 +99,17 @@ color: white;
     text-align: center;
 }
 
+.pp{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 71px;
+    color: #003399;
+    text-align: center;
+    padding-top: 50px;
+    /* padding: 40px; */
+}
 
 
 .pro-sec{
