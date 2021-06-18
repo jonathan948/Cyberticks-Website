@@ -512,7 +512,6 @@ input[type=text], select, textarea {
 .fit{
     margin: 0 auto;
     font-size: 15px;
-
 }
 
 .fa{
@@ -1126,7 +1125,7 @@ ul{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 34px;
+    line-height: 60px;
     letter-spacing: 0.396px;
     color: #FFFFFF;  
 }
@@ -1532,7 +1531,7 @@ ul{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 34px;
+    line-height: 60px;
     letter-spacing: 0.396px;
     color: #FFFFFF;  
 }
@@ -1939,7 +1938,7 @@ ul{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 34px;
+    line-height: 60px;
     letter-spacing: 0.396px;
     color: #FFFFFF;  
 }
@@ -2375,7 +2374,7 @@ input[type=submit] {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 34px;
+    line-height: 60px;
     letter-spacing: 0.396px;
     color: #FFFFFF;  
 }
@@ -2796,7 +2795,7 @@ input[type=submit] {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 34px;
+    line-height: 60px;
     letter-spacing: 0.396px;
     color: #FFFFFF;  
 }
