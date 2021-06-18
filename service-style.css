@@ -248,6 +248,13 @@ ul{
 }
 
 @media(max-width: 768px){
+
+li{
+    width: 40%;
+    line-height: 60px;
+    margin: 13px;
+}
+
 .control-col, .door-col-2, .curtain-col, 
 .fur-col, .enter-col, .hidden-col, .hotel-col{
     padding-right: 0px;
@@ -325,6 +332,12 @@ ul{
 
 @media(max-width: 520px){
 
+li{
+    width: 40%;
+    line-height: 60px;
+    margin: 13px;
+}
+
 .nav-logo{
     width: 30%;
 }
@@ -354,6 +367,13 @@ ul{
     line-height: 60px;
     margin: 0 auto;
 }
+
+li{
+    margin: 13px;
+    width: 40%;
+    line-height: 60px;
+}
+
 
 .footer-desktop{
     display: none;
@@ -493,6 +513,12 @@ ul{
 }
 
 @media(max-width: 540px){
+
+    li{
+        margin: 13px;
+        width: 40%;
+        line-height: 60px;
+    }
 
     .nav-logo{
         width: 30%;

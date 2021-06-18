@@ -697,6 +697,12 @@ display: block;
 
 @media(max-width: 540px){
 
+    li{
+        margin: 13px;
+        width: 40%;
+        line-height: 60px;
+    }
+
     .nav-logo{
         width: 30%;
     }
@@ -895,6 +901,11 @@ display: block;
 }
 
 @media(max-width: 520px){
+li{
+    width: 40%;
+    line-height: 60px;
+    margin: 13px;
+}
 
 .nav-logo{
     width: 30%;
@@ -1101,6 +1112,11 @@ ul{
 }
 
 @media(max-width: 360px){ 
+    li{
+        margin: 13px;
+        width: 40%;
+        line-height: 60px;
+    }    
 .item{
     color: black;
     margin-left: 10px;
@@ -1123,6 +1139,12 @@ input[type=submit] {
 }
 
 @media(max-width: 320px){ 
+
+    li{
+        margin: 13px;
+        width: 40%;
+        line-height: 60px;
+    }    
 
 input[type=submit] {
     font-style: normal;

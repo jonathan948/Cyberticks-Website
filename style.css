@@ -942,6 +942,12 @@ ul{
 }
 
 @media(max-width: 768px){
+
+    li{
+        margin: 13px;
+        width: 40%;
+        line-height: 60px;
+    }
     /* NAVBER SECTION */
 ul{
     display: block;
@@ -1356,14 +1362,16 @@ ul{
 }
 
 @media(max-width: 540px){
+
+    li{
+        margin: 13px;
+        width: 40%;
+        line-height: 60px;
+    }
     /* NAVBER SECTION */
 ul{
     display: block;
     margin: 20px;
-}
-
-.list-item{
-    background-color: white;
 }
 
 .cy{
@@ -1761,6 +1769,12 @@ ul{
 }
 
 @media(max-width: 520px){
+
+    li{
+        margin: 13px;
+        width: 40%;
+        line-height: 60px;
+    }
     /* NAVBER SECTION */
 ul{
     display: block;
@@ -2168,6 +2182,12 @@ ul{
 }
 
 @media(max-width: 375px){
+
+    li{
+        margin: 13px;
+        width: 40%;
+        line-height: 60px;
+    }
     .item{
     color: rgb(37, 35, 35);
     margin-left: 20px;
@@ -2194,6 +2214,12 @@ ul{
 }
 
 @media(max-width: 360px){
+
+    li{
+        margin: 13px;
+        width: 40%;
+        line-height: 60px;
+    }
     /* NAVBER SECTION */
 ul{
     display: block;
@@ -2605,6 +2631,12 @@ input[type=submit] {
 
 @media(max-width: 320px){
     /* NAVBER SECTION */
+
+    li{
+        margin: 13px;
+        width: 40%;
+        line-height: 60px;
+    }    
 ul{
     display: block;
     margin: 20px;
