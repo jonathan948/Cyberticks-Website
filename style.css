@@ -677,13 +677,26 @@ ul{
 .line-ban, 
 .header-main,
 .pra-main,
-.scroll-img,
 .automation-img-2, 
 .desktop-sec, 
 .for-desktop, 
 .footer-desktop, 
 .name-para, .tell-head{
   display: none;
+}
+
+.chat-mobile{
+    width: 40px;
+    float: right;
+    position: relative;
+    bottom: 27%;
+    right: 10%;
+}
+
+.scroll-mobile{
+    width: 30px;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 .background-col{
@@ -710,7 +723,7 @@ ul{
     rgba(0, 51, 153, 0) 14.32%, 
     rgba(0, 51, 153, 0.56) 100%);
     border-radius: 50%;
-    height: 30vh;
+    height: 36vh;
     margin-top: 8%;
 }
 
@@ -1084,6 +1097,21 @@ ul{
   display: none;
 }
 
+
+.chat-mobile{
+    width: 40px;
+    float: right;
+    position: relative;
+    bottom: 27%;
+    right: 10%;
+}
+
+.scroll-mobile{
+    width: 30px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
 .background-col{
     background-image: url("./Image/house-image.jpg");
     background-repeat: no-repeat;
@@ -1108,7 +1136,7 @@ ul{
     rgba(0, 51, 153, 0) 14.32%, 
     rgba(0, 51, 153, 0.56) 100%);
     border-radius: 50%;
-    height: 30vh;
+    height: 36vh;
     margin-top: 10%;
 }
 
@@ -1514,7 +1542,7 @@ ul{
     rgba(0, 51, 153, 0) 14.32%, 
     rgba(0, 51, 153, 0.56) 100%);
     border-radius: 50%;
-    height: 50vh;
+    height: 74vh;
     margin-top: 30%;
 }
 
