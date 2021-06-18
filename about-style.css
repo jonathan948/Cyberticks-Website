@@ -904,12 +904,19 @@ display: block;
     width: 60%;
 }
 
-.footer-mobile, .for-mobile, .mission-mobile, .about-text-mobile{
+.footer-mobile, 
+.for-mobile, 
+.mission-mobile, 
+.about-text-mobile{
     display: block;
 }
 
 
-.desktop, .for-desktop, .mission-desktop, .tell-head, .about-text-desktop{
+.desktop, 
+.for-desktop, 
+.mission-desktop, 
+.tell-head, 
+.about-text-desktop{
     display: none;
 }
 
