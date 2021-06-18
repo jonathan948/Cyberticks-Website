@@ -1076,7 +1076,6 @@ ul{
 .line-ban, 
 .header-main,
 .pra-main,
-.scroll-img,
 .automation-img-2, 
 .desktop-sec, 
 .for-desktop, 
@@ -1336,6 +1335,10 @@ ul{
     margin: 20px;
 }
 
+.list-item{
+    background-color: white;
+}
+
 .cy{
     color: #2c0cbb;
 }
@@ -1465,13 +1468,26 @@ ul{
 .line-ban, 
 .header-main,
 .pra-main,
-.scroll-img,
 .automation-img-2, 
 .desktop-sec, 
 .for-desktop, 
 .footer-desktop, 
 .name-para, .tell-head{
   display: none;
+}
+
+.chat-mobile{
+    width: 40px;
+    float: right;
+    position: relative;
+    bottom: 26%;
+    right: 10%;
+}
+
+.scroll-mobile{
+    width: 30px;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 .background-col{
@@ -1859,13 +1875,26 @@ ul{
 .line-ban, 
 .header-main,
 .pra-main,
-.scroll-img,
 .automation-img-2, 
 .desktop-sec, 
 .for-desktop, 
 .footer-desktop, 
 .name-para, .tell-head{
   display: none;
+}
+
+.chat-mobile{
+    width: 40px;
+    float: right;
+    position: relative;
+    bottom: 26%;
+    right: 10%;
+}
+
+.scroll-mobile{
+    width: 30px;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 .background-col{
@@ -1892,7 +1921,7 @@ ul{
     rgba(0, 51, 153, 0) 14.32%, 
     rgba(0, 51, 153, 0.56) 100%);
     border-radius: 50%;
-    height: 50vh;
+    height: 57vh;
     margin-top: 30%;
 }
 
@@ -2121,6 +2150,20 @@ ul{
 .item-imag{
     width: 120%;
  }
+
+ .chat-mobile{
+    width: 40px;
+    float: right;
+    position: relative;
+    bottom: 26%;
+    right: 10%;
+}
+
+.scroll-mobile{
+    width: 30px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
 }
 
 @media(max-width: 360px){
@@ -2260,13 +2303,26 @@ ul{
 .line-ban, 
 .header-main,
 .pra-main,
-.scroll-img,
 .automation-img-2, 
 .desktop-sec, 
 .for-desktop, 
 .footer-desktop, 
 .name-para, .tell-head{
   display: none;
+}
+
+.chat-mobile{
+    width: 40px;
+    float: right;
+    position: relative;
+    bottom: 26%;
+    right: 10%;
+}
+
+.scroll-mobile{
+    width: 30px;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 input[type=submit] {
@@ -2301,7 +2357,7 @@ input[type=submit] {
     rgba(0, 51, 153, 0) 14.32%, 
     rgba(0, 51, 153, 0.56) 100%);
     border-radius: 50%;
-    height: 50vh;
+    height: 60vh;
     margin-top: 30%;
 }
 
@@ -2668,13 +2724,26 @@ ul{
 .line-ban, 
 .header-main,
 .pra-main,
-.scroll-img,
 .automation-img-2, 
 .desktop-sec, 
 .for-desktop, 
 .footer-desktop, 
 .name-para, .tell-head{
   display: none;
+}
+
+.chat-mobile{
+    width: 40px;
+    float: right;
+    position: relative;
+    bottom: 27%;
+    right: 10%;
+}
+
+.scroll-mobile{
+    width: 30px;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 input[type=submit] {
@@ -2709,7 +2778,7 @@ input[type=submit] {
     rgba(0, 51, 153, 0) 14.32%, 
     rgba(0, 51, 153, 0.56) 100%);
     border-radius: 50%;
-    height: 50vh;
+    height: 60vh;
     margin-top: 30%;
 }
 
