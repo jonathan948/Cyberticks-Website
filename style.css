@@ -500,13 +500,20 @@ input[type=text], select, textarea {
 }
 
 .footer-link{
-    width: 90%;
+    width: 80%;
     text-align: center;
     margin: 0 auto;
     padding: 0px;
     padding-top: 30px;
     padding-bottom: 50px;
-    font-size: 18px;
+    font-size: 14px;
+}
+
+
+.list{
+    width: 10%;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .fit{
@@ -1130,7 +1137,7 @@ ul{
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 60px;
     letter-spacing: 0.396px;
     color: #FFFFFF;  
@@ -1951,7 +1958,7 @@ ul{
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 60px;
     letter-spacing: 0.396px;
     color: #FFFFFF;  

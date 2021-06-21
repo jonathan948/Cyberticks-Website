@@ -29,12 +29,12 @@
             <nav>
                 <div class="box container">
                     <nav class="navbar navbar-expand-lg">
-                        <img src="./Image/logo-cy.svg" alt="">
+                        <img class="nav-logo" src="./Image/logo-cy.svg" alt="">
 
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                             aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+                            <span class="navbar-toggler-icon"><img src="./Image/hanbuger.svg" alt=""></span>
                         </button>
                         <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
 
@@ -66,9 +66,9 @@
 
         <!-- ANOTHER SECTION -->
         <section>
-            <div class="containe">
+            <div class="containe desktop">
                 <div class="row map-row">
-                    <div class="col-md-6">
+                    <div class="col-6">
 
                         <div class="flex-container">
                             <div class="item1 m-2"><img src="./Image/icons.svg" alt="" width="30px"></div>
@@ -99,7 +99,44 @@
 
 
                     </div>
-                    <div><img class="map-img" src="./Image/map.jpg" alt="" width="600px"></div>
+                    <div class="col-6">
+                        <img class="map-img" src="./Image/map.jpg" alt="" width="100px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="containe mobile">
+                <div class="row map-row">
+                    <div class="col-md-6">
+
+                        <div class="flex-container">
+                            <div class="item1 m-2"><img class="item-mages" src="./Image/icons.svg" alt="" width="30px"></div>
+
+                            <div class="item2 ml-2">
+                                <h6 class=" office-line-head"><b>Office Line</b> </h6>
+                                <p class="conta-para">+234 810 638 7234</p>
+                            </div>
+                        </div>
+
+
+                        <div class="flex-container-2">
+                            <div class="item3 m-2"><img class="item-mages" src="./Image/icon-email.svg" alt="" width="30px"></div>
+                            <div class="item4 ml-2">
+                                <h6 class=" office-line-head"><b>EMAIL</b> </h6>
+                                <p class="email-para">Hello@cyberticks.com</p>
+                            </div>
+                        </div>
+
+                        <div class="flex-container-2">
+                            <div class="item3 m-2"><img class="item-mages" src="./Image/Vector-1.svg" alt="" width="30px"></div>
+                            <div class="item4 ml-1">
+                                <h6 class=" office-line-head "><b>Contact Address</b> </h6>
+                                <p class="add-para">No 45, Royal Palmwill Estate, <br>
+                                    Remlek, Badore. Ajah, Lagos.</p>
+                            </div>
+                        </div>
+                    </div>
+                        <img class="map-img" src="./Image/map.jpg" alt="" width="600px">
                 </div>
             </div>
         </section>
@@ -131,8 +168,8 @@
                             </select>
 
                             <label for="subject">Message</label>
-                            <textarea id="subject" name="subject" placeholder="About Project"
-                                style="height:160px"></textarea>
+                            <textarea id="subject" class="ab-pro" name="subject" placeholder="About Project"
+                                ></textarea>
 
                         </div>
                         <input type="submit" value="Submit" class="submit-btn">
@@ -142,18 +179,54 @@
 
             </div>
         </section>
-        <section class="footer-sec">
+        <section class="footer-sec footer-mobile">
             <footer>
                 <div class="box-2 container">
                     <div class="row">
                         <div class="col-md-12 footer-col mt-5">
                             <ul class="footer-link">
-                                <li class="list"><a class="text-white" href="index.html">Home</a> </li>
-                                <li class="list"><a class="text-white" href="about.html">About</a></li>
-                                <li class="list"><a class="text-white" href="service.html">Services</a></li>
-                                <li class="list"><a class="text-white" href="project.html">Project</a></li>
-                                <li class="list"><a class="text-white" href="">Media</a></li>
-                                <li class="list"><a class="text-white" href="get-in-touch.html">Get in touch</a></li>
+                                <li class="fit"><a href="index.html">Home</a> </li>
+                                <li class="fit"><a href="about.html">About</a></li>
+                                <li class="fit"><a href="service.html">Services</a></li>
+                                <li class="fit"><a href="project.html">Project</a></li>
+                                <li class="fit"><a href="">Media</a></li>
+                                <li class="fit"><a href="get-in-touch.html">Get in touch</a></li>
+                            </ul>
+                            <hr>
+                        </div>
+                    </div>
+
+                    <div class="row ">
+                        <div class="col-6 pt-3 mt-4 mb-3 text-center">
+                            <img class="footer-logo" src="./Image/logo-cy.svg" alt="">
+                        </div>
+                     
+                        <div class="col-6 mb-3 text-center">
+                            <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="col-md-4 pt-4 mt-3 mb-3 gh">
+                            <p class="text-center footer-para">© Cyberticks 2020. All rights reserved </p>
+
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </section>
+        <section class="footer-sec footer-desktop">
+            <footer>
+                <div class="box-2 container">
+                    <div class="row">
+                        <div class="col-md-12 footer-col mt-5">
+                            <ul class="footer-link">
+                                <li class="fit"><a href="index.html">Home</a> </li>
+                                <li class="fit"><a href="about.html">About</a></li>
+                                <li class="fit"><a href="service.html">Services</a></li>
+                                <li class="fit"><a href="project.html">Project</a></li>
+                                <li class="fit"><a href="">Media</a></li>
+                                <li class="fit"><a href="get-in-touch.html">Get in touch</a></li>
                             </ul>
                             <hr>
                         </div>
@@ -161,16 +234,16 @@
 
                     <div class="row ">
                         <div class="col-md-4 pt-3 mt-3 mb-3 text-center">
-                            <img src="./Image/logo-cy.svg" alt="">
+                            <img src="./Image/footer-logo.png" alt="">
                         </div>
                         <div class="col-md-4 pt-4 mt-3 mb-3">
-                            <p class="text-center footer-para">© Cyberticks 2020. All rights reserved </p>
+                            <p class="text-center footer-para ">© Cyberticks 2020. All rights reserved </p>
 
                         </div>
-                        <div class="col-md-4  mb-3 text-center">
+                        <div class="col-md-4 mb-3 text-center">
                             <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
                             <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                            <a href="#" class="fa fa-facebook"></a>
+                            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
                             <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
                         </div>
                     </div>
