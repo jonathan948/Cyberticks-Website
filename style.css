@@ -9,7 +9,6 @@
     background: #000066;
 }
 
-
 /* NAVBER SECTION */
 
 .nav{
@@ -1381,6 +1380,7 @@ ul{
     margin: 20px;
 }
 
+
 .cy{
     color: #2c0cbb;
 }
@@ -1536,6 +1536,7 @@ ul{
     position: relative;
     bottom: 20vh !important;
     right: 10%;
+    position: fixed;
 }
 
 .scroll-mobile{
@@ -1949,6 +1950,7 @@ ul{
     position: relative;
     bottom: 26%;
     right: 10%;
+    position: fixed;
 }
 
 .scroll-mobile{
@@ -2223,6 +2225,7 @@ li{
     position: relative;
     bottom: 16vh !important;
     right: 10%;
+    position: fixed;
 }
 
 .scroll-mobile{
@@ -2399,6 +2402,7 @@ ul{
     position: relative;
     bottom: 26%;
     right: 10%;
+    position: fixed;
 }
 
 .scroll-mobile{
@@ -2826,6 +2830,7 @@ ul{
     position: relative;
     bottom: 27%;
     right: 10%;
+    position: fixed;
 }
 
 .scroll-mobile{
