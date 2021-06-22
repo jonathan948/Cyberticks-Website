@@ -348,6 +348,12 @@ ul{
 }
 
 @media(max-width: 540px){
+
+    li{
+        margin: 14px;
+        width: 40%;
+        line-height: 60px;
+    }
     
 .ab-pro{
     height: 50px;

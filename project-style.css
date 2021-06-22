@@ -19,10 +19,22 @@ a{
     color: white;
     text-decoration: none;
 }
-
 li{
-    margin: 14px;
-    width: 40%;
+    margin: 20px;
+    /* width: 80%; */
+}
+
+ul{
+    display: flex;
+    margin: 12px;
+    list-style: none;
+    color: white;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 100%;
+    width: 100%;
 }
 
 .about-head{
@@ -44,20 +56,6 @@ overflow: hidden;
 /* border: solid; */
 background-color: none !important;
 border: none !important;
-}
-
-ul{
-display: flex;
-margin: 10px;
-list-style: none;
-color: white;
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 100%;
-width: 100%;
-
 }
 
 .get-row{
@@ -408,10 +406,10 @@ ul{
     display: block;
 }
 
-ul{
-    display: block;
+li{
+    margin: 13px;
+    width: 90%;
     line-height: 60px;
-
 }
 
 .pro-sec{
@@ -646,8 +644,8 @@ ul{
         background-image: url("./Image/background-img-about.svg");
         background-repeat: no-repeat;
         background-position: center;
-        background-size: 500px;
-        height: 30vh;
+        background-size: 440px;
+        height: 26vh;
         }
 }
 @media(max-width: 375px){
@@ -679,7 +677,7 @@ ul{
     font-style: normal;
     font-weight: normal;
     font-size: 33px;
-    line-height: 220px;
+    line-height: 210px;
     color: #FFFFFF;
     text-align: center;
 }
@@ -705,8 +703,8 @@ input[type=submit] {
     background-image: url("./Image/background-img-about.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 430px;
-    height: 26vh;
+    background-size: 420px;
+    height: 25vh;
     }
     
 .btn{

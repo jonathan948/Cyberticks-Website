@@ -789,9 +789,9 @@ display: block;
         background-image: url("./Image/background-img-about.svg");
         background-repeat: no-repeat;
         background-position: cente;
-        background-size: 300px;
-        margin: 0 auto;
-        display: block;
+        background-size: 400px;
+        margin: 0 auo;
+        display: bloc;
         height: 20vh;
     }
 
@@ -1011,7 +1011,7 @@ th{
     background-image: url("./Image/background-img-about.svg");
     background-repeat: no-repeat;
     background-position: cente;
-    background-size: 300px;
+    background-size: 400px;
     margin: 0 auto;
     display: block;
     height: 20vh;
@@ -1265,6 +1265,17 @@ input[type=submit] {
     margin: 2px 4px;
     border-radius: 50%;
     margin-top: 40px;
+}
+
+
+.about-row{
+    background-image: url("./Image/background-img-about.svg");
+    background-repeat: no-repeat;
+    background-position: cente;
+    background-size: 300px;
+    margin: 0 auto;
+    display: block;
+    height: 20vh;
 }
     
 .btn:hover{
