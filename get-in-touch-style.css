@@ -562,8 +562,8 @@ input[type=submit] {
         background-image: url("./Image/background-img-about.svg");
         background-repeat: no-repeat;
         background-position: center;
-        background-size: 500px;
-        height: 30vh;
+        background-size: 430px;
+        height: 25vh;
     }
     
     .fit{
@@ -615,7 +615,7 @@ input[type=submit] {
         font-style: normal;
         font-weight: normal;
         font-size: 33px;
-        line-height: 240px;
+        line-height: 210px;
         color: #FFFFFF;
         text-align: center;
     }
@@ -679,8 +679,8 @@ input[type=submit] {
     background-image: url("./Image/background-img-about.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 400px;
-    height: 40vh;
+    background-size: 330px !important;
+    height: 28vh !important;
 }
 }
 
@@ -689,7 +689,7 @@ input[type=submit] {
     font-style: normal;
     font-weight: normal;
     font-size: 33px;
-    line-height: 140px;
+    line-height: 170px;
     color: #FFFFFF;
     text-align: center;
     font-family: Oswald;
@@ -699,8 +699,8 @@ input[type=submit] {
     background-image: url("./Image/background-img-about.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 400px;
-    height: 20vh;
+    background-size: 360px;
+    height: 21vh;
 }
 }
 
@@ -709,7 +709,7 @@ input[type=submit] {
         font-style: normal;
         font-weight: normal;
         font-size: 33px;
-        line-height: 180px;
+        line-height: 199px;
         color: #FFFFFF;
         text-align: center;
         font-family: Oswald;
