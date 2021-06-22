@@ -1370,11 +1370,11 @@ ul{
 
 @media(max-width: 540px){
 
-    li{
-        margin: 13px;
-        width: 40%;
-        line-height: 60px;
-    }
+li{
+    width: 40%;
+    line-height: 60px;
+    margin: 13px;
+}
     /* NAVBER SECTION */
 ul{
     display: block;
@@ -1403,8 +1403,8 @@ ul{
 }
 
 .automation-img-1{
-    width: 100%;
-    margin-top: 30%;
+    width: 99%;
+    margin-bottom: 50%;
 }
 
 .last-col{
@@ -1488,6 +1488,18 @@ ul{
     color: white;
 }
 
+.smart-home-para-1, .access-para-1, 
+.door-para-1, .led-para-1, .light-para-1{
+    font-family: Poppins;
+    font-style: normal;
+    text-align: center;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 20px;
+    margin-top: 30px;
+    color: #000000;
+}
+
 .smart-home:hover, 
 .access:hover, 
 .door:hover, 
@@ -1522,7 +1534,7 @@ ul{
     width: 40px;
     float: right;
     position: relative;
-    bottom: 26%;
+    bottom: 20vh !important;
     right: 10%;
 }
 
@@ -2190,13 +2202,13 @@ ul{
 
 @media(max-width: 375px){
 
-    li{
-        margin: 13px;
-        width: 40%;
-        line-height: 60px;
-    }
-    .item{
-    color: rgb(37, 35, 35);
+li{
+    width: 40%;
+    line-height: 60px;
+    margin: 13px;
+}
+.item{
+    color: rgb(128, 90, 90);
     margin-left: 20px;
     font-size: 12px;
 }
@@ -2209,7 +2221,7 @@ ul{
     width: 40px;
     float: right;
     position: relative;
-    bottom: 26%;
+    bottom: 16vh !important;
     right: 10%;
 }
 
@@ -2217,6 +2229,16 @@ ul{
     width: 30px;
     margin: 0 auto;
     margin-bottom: 30px;
+}
+
+
+.circle-imag-2{
+    background: linear-gradient(180deg, 
+    rgba(0, 51, 153, 0) 14.32%, 
+    rgba(0, 51, 153, 0.56) 100%);
+    border-radius: 50%;
+    height: 50%;
+    margin-top: 30%;
 }
 }
 

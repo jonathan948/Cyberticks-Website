@@ -714,7 +714,7 @@ display: block;
      color: white;
     }
         
-    }
+}
 
 @media(max-width: 540px){
 
@@ -811,7 +811,7 @@ display: block;
         font-family: Oswald;
         font-style: normal;
         font-weight: normal;
-        font-size: 33px;
+        font-size: 29px;
         line-height: 51px;
         color: #003399;
         padding: 20px;
