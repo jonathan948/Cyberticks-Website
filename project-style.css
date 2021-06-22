@@ -568,7 +568,7 @@ li{
         font-style: normal;
         font-weight: normal;
         font-size: 33px;
-        line-height: 250px;
+        line-height: 200px;
         color: #FFFFFF;
         text-align: center;
     }
@@ -644,8 +644,8 @@ li{
         background-image: url("./Image/background-img-about.svg");
         background-repeat: no-repeat;
         background-position: center;
-        background-size: 440px;
-        height: 26vh;
+        background-size: 420px;
+        height: 22vh;
         }
 }
 @media(max-width: 375px){

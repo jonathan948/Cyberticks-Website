@@ -1445,7 +1445,7 @@ ul{
 }
 
 .jj-img-2{
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     display: block;
 }
@@ -2323,7 +2323,7 @@ ul{
 }
 
 .jj-img-2{
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     display: block;
 }
@@ -2400,7 +2400,7 @@ ul{
     width: 40px;
     float: right;
     position: relative;
-    bottom: 26%;
+    bottom: 20%;
     right: 10%;
     position: fixed;
 }

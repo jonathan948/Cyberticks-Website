@@ -1168,11 +1168,12 @@ ul{
 }
 
 @media(max-width: 360px){ 
-    li{
-        margin: 13px;
-        width: 40%;
-        line-height: 60px;
-    }    
+li{
+    width: 40%;
+    line-height: 60px;
+    margin: 13px;
+}  
+  
 .item{
     color: black;
     margin-left: 10px;
