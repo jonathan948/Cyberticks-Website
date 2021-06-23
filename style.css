@@ -212,7 +212,28 @@ span{
     margin-top: 8%;
 }
 
+.service-butn-1{
+    padding: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    width: 15%;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #003399;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: solid 1px #00D1FF;
+    text-align: center;
+    margin-top: 8%;
+}
+
 .service-butn:hover{
+    color: #003399;
+}
+
+.service-butn-1:hover{
     color: #003399;
 }
 
