@@ -686,8 +686,18 @@ ul{
 .desktop-sec, 
 .for-desktop, 
 .footer-desktop, 
-.name-para, .tell-head{
+.tell-head{
   display: none;
+}
+
+.name-para{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 60px;
+    color: #A5B0EA;
+    text-align: center;
 }
 
 .chat-mobile{
@@ -1104,8 +1114,18 @@ ul{
 .desktop-sec, 
 .for-desktop, 
 .footer-desktop, 
-.name-para, .tell-head{
+.tell-head{
   display: none;
+}
+
+.name-para{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 60px;
+    color: #A5B0EA;
+    text-align: center;
 }
 
 
@@ -1369,15 +1389,23 @@ ul{
 
 @media(max-width: 540px){
 
+    /* NAVBER SECTION */
+ul{
+    display: block;
+    margin: 20px;
+}
+
+
 li{
     width: 40%;
     line-height: 60px;
     margin: 13px;
 }
-    /* NAVBER SECTION */
-ul{
-    display: block;
-    margin: 20px;
+
+.cyber-logo{
+    width: 30%;
+    position: relative;
+    right: 3% !important;
 }
 
 
@@ -1390,7 +1418,7 @@ ul{
 }
 
 .footer-logo{
-    width: 90%;
+    width: 55% !important;
 }
 
 .item-imag{
@@ -1526,8 +1554,18 @@ ul{
 .desktop-sec, 
 .for-desktop, 
 .footer-desktop, 
-.name-para, .tell-head{
+.tell-head{
   display: none;
+}
+
+.name-para{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 60px;
+    color: #A5B0EA;
+    text-align: center;
 }
 
 .chat-mobile{
@@ -1810,7 +1848,7 @@ ul{
 }
 
 .footer-logo{
-    width: 90%;
+    width: 55% !important;
 }
 
 .item-imag{
@@ -1842,9 +1880,9 @@ ul{
 }
 
 .cyber-logo{
+    width: 30%;
     position: relative;
-    right: 0px;
-    width: 145px;
+    right: 3% !important;
 }
 
 .view-butn:hover{
@@ -1939,9 +1977,19 @@ ul{
 .automation-img-2, 
 .desktop-sec, 
 .for-desktop, 
-.footer-desktop, 
-.name-para, .tell-head{
+.footer-desktop,  
+.tell-head{
   display: none;
+}
+
+.name-para{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 60px;
+    color: #A5B0EA;
+    text-align: center;
 }
 
 .chat-mobile{
@@ -2267,7 +2315,7 @@ ul{
 }
 
 .footer-logo{
-    width: 90%;
+    width: 55% !important;
 }
 
 .item-imag{
@@ -2299,9 +2347,9 @@ ul{
 }
 
 .cyber-logo{
+    width: 30%;
     position: relative;
-    right: 0px;
-    width: 145px;
+    right: 3% !important;
 }
 
 .view-butn:hover{
@@ -2392,8 +2440,18 @@ ul{
 .desktop-sec, 
 .for-desktop, 
 .footer-desktop, 
-.name-para, .tell-head{
+.tell-head{
   display: none;
+}
+
+.name-para{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 60px;
+    color: #A5B0EA;
+    text-align: center;
 }
 
 .chat-mobile{
@@ -2684,7 +2742,7 @@ ul{
 }
 
 .footer-logo{
-    width: 70%;
+    width: 55% !important;
 }
 .fa{
     padding: 5px;
@@ -2724,11 +2782,10 @@ ul{
 .service-butn:hover{
     color: #003399;
 }
-
 .cyber-logo{
+    width: 30%;
     position: relative;
-    right: 0px;
-    width: 145px;
+    right: 3% !important;
 }
 
 .view-butn:hover{
@@ -2820,8 +2877,18 @@ ul{
 .desktop-sec, 
 .for-desktop, 
 .footer-desktop, 
-.name-para, .tell-head{
+.tell-head{
   display: none;
+}
+
+.name-para{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 60px;
+    color: #A5B0EA;
+    text-align: center;
 }
 
 .chat-mobile{

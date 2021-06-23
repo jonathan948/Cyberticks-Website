@@ -1,8 +1,13 @@
 // MOBIL NAVBAR SECTOIN
-function openNav() {
-    document.getElementById("myNav").style.width = "100%";
+
+  let serviceItem = document.getElementById('hidden').style.display = 'none';
+  let buttonAll = document.querySelector('.service-butn').addEventListener('click', jj);
+
+  function jj() {
+    if (jj) {
+    document.getElementById('hidden').style.display = 'block'; 
+    }else{
+      document.getElementById('hidden').style.display = 'none'; 
+    }
   }
   
-  function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
-  }

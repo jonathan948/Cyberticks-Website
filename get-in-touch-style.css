@@ -369,11 +369,13 @@ ul{
 }
 
 .nav-logo{
-    width: 30%;
+    width: 30% !important;
+    position: relative;
+    right: 3% !important;
 }
 
 .footer-logo{
-    width: 90%;
+    width: 60% !important;
 }
 
 .desktop{
@@ -518,7 +520,9 @@ input[type=submit] {
     }
     
     .nav-logo{
-        width: 30%;
+        width: 30% !important;
+        position: relative;
+        right: 3% !important;
     }
     
     .footer-logo{

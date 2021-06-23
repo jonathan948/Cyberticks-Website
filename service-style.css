@@ -71,6 +71,27 @@ ul{
 
 /* SERVICE SECTION */
 
+.service-btn{
+    padding: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    width: 15%;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #003399;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: solid 1px #00D1FF;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.service-btn:hover{
+    color: #003399;
+}
+
 .for-mobile{
     display: none;
 }
@@ -340,10 +361,12 @@ li{
 
 .nav-logo{
     width: 30%;
+    position: relative;
+    right: 3% !important;
 }
     
 .footer-logo{
-    width: 60%;
+    width: 63%;
 }
 
 .for-desktop{
@@ -508,6 +531,10 @@ ul{
     border: solid 1px  #00D1FF;
     padding: 14px;
 }
+
+.service-btn{
+    width: 50%;
+}
 }
 
 @media(max-width: 540px){
@@ -520,10 +547,12 @@ ul{
 
     .nav-logo{
         width: 30%;
+        position: relative;
+        right: 3% !important;
     }
         
     .footer-logo{
-        width: 60%;
+        width: 63%;
     }
     
     .for-desktop{
@@ -704,10 +733,12 @@ ul{
 
     .nav-logo{
         width: 30%;
+        position: relative;
+        right: 3% !important;
     }
         
     .footer-logo{
-        width: 60%;
+        width: 63%;
     }
     
     .for-desktop{

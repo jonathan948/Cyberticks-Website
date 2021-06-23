@@ -724,8 +724,10 @@ display: block;
         line-height: 60px;
     }
 
-    .nav-logo{
-        width: 30%;
+    .cyber-logo{
+        width: 30% !important;
+        position: relative;
+        right: 3% !important;
     }
     
     .footer-logo{
@@ -948,9 +950,10 @@ li{
     line-height: 60px;
     margin: 13px;
 }
-
-.nav-logo{
+.cyber-logo{
     width: 30%;
+    position: relative;
+    right: 3% !important;
 }
 
 .footer-logo{
@@ -1173,7 +1176,7 @@ li{
     line-height: 60px;
     margin: 13px;
 }  
-  
+
 .item{
     color: black;
     margin-left: 10px;

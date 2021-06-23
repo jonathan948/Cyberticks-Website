@@ -391,7 +391,9 @@ ul{
 @media(max-width: 540px){
 
 .get-logo{
-    width: 30%;
+    width: 30% !important;
+    position: relative;
+    right: 3% !important;
 }
 
 .footer-logo{
@@ -523,7 +525,9 @@ li{
 @media(max-width: 520px){
 
     .get-logo{
-        width: 30%;
+        width: 30% !important;
+        position: relative;
+        right: 3% !important;
     }
     
     .footer-logo{
@@ -718,7 +722,13 @@ input[type=submit] {
 @media(max-width: 360px){
 
 .btn{
-     width: 60% !important;     
+    width: 60% !important;     
+}
+
+.get-logo{
+    width: 30% !important;
+    position: relative;
+    right: 3% !important;
 }
 
 .item{
