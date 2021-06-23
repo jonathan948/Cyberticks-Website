@@ -58,12 +58,12 @@ background-color: none !important;
 border: none !important;
 }
 
-.get-row{
-background-image: url("./Image/background-img-about.svg");
-background-repeat: no-repeat;
-background-position: center;
-background-size: 700px;
-height: 42vh;
+.ge-row{
+    background-image: url("./Image/background-img-about.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 700px;
+    height: 42vh;
 }
 
 
@@ -297,12 +297,12 @@ input[type=text], select, textarea {
 .pro-mobile{
     display: none;
 }
-.get-row{
+.ge-row{
     background-image: url("./Image/background-img-about.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 840px;
-    height: 30vh;
+    background-size: 800px;
+    height: 27vh;
 }
 
 .get-head{
@@ -380,12 +380,12 @@ ul{
     font-family: Poppins;
 }
 
-.get-row{
+.ge-row{
+    background-image: url("./Image/background-img-about.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 700px;
-    height: 30vh;
-    background-image: url("./Image/background-img-about.svg");
+    height: 27vh;
 }
 }
 @media(max-width: 540px){
@@ -513,14 +513,13 @@ li{
     position: relative;
     bottom: 0%;
 }
-
-.get-row{
+.ge-row{
     background-image: url("./Image/background-img-about.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 500px;
-    height: 30vh;
-    }
+    background-size: 450px;
+    height: 27vh;
+}
 }
 @media(max-width: 520px){
 
@@ -643,14 +642,13 @@ li{
         position: relative;
         bottom: 0%;
     }
-    
-    .get-row{
+    .ge-row{
         background-image: url("./Image/background-img-about.svg");
         background-repeat: no-repeat;
         background-position: center;
-        background-size: 420px;
-        height: 22vh;
-        }
+        background-size: 450px;
+        height: 25vh;
+    }
 }
 @media(max-width: 375px){
 
@@ -681,7 +679,7 @@ li{
     font-style: normal;
     font-weight: normal;
     font-size: 33px;
-    line-height: 210px;
+    line-height: 180px;
     color: #FFFFFF;
     text-align: center;
 }
@@ -703,13 +701,13 @@ input[type=submit] {
     letter-spacing: 0.396px;
     color: #A5B0EA;
 }
-.get-row{
+.ge-row{
     background-image: url("./Image/background-img-about.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 420px;
-    height: 25vh;
-    }
+    height: 24vh;
+}
     
 .btn{
     width: 40%;
@@ -767,13 +765,13 @@ input[type=submit] {
     color: #A5B0EA;
 }
 
-.get-row{
+.ge-row{
     background-image: url("./Image/background-img-about.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 400px;
-    height: 30vh;
-    }
+    background-size: 420px;
+    height: 27vh;
+}
     
 .btn{
     width: 40%;
@@ -824,7 +822,7 @@ input[type=submit] {
         font-style: normal;
         font-weight: normal;
         font-size: 27px;
-        line-height: 210px;
+        line-height: 160px;
         color: #FFFFFF;
         text-align: center;
     }
@@ -858,13 +856,13 @@ input[type=submit] {
         margin-top: 40px;
     }
 
-    .get-row{
+    .ge-row{
         background-image: url("./Image/background-img-about.svg");
         background-repeat: no-repeat;
         background-position: center;
-        background-size: 400px;
-        height: 30vh;
-        }
+        background-size: 360px;
+        height: 27vh;
+    }
         
     .btn{
         width: 40%;
