@@ -16,7 +16,8 @@
 }
 
 .cyber-logo{
-    margin-right: 20%;
+  position: relative;
+  right: 20px;
 }
 
 .btn:hover{
@@ -80,9 +81,10 @@ ul{
 
 .chat-img{
     float: right;
-    margin-right: 40%;
-    margin-top: 6px;
+    margin-right: 46%;
+    margin-top: 40px;
     width: 20%;
+    padding-bottom: 20%;
 }
 .header-main{
     margin-top: 20%;
@@ -92,7 +94,7 @@ ul{
     font-size: 48px;
     line-height: 69px;
     color: #FFFFFF;
-    margin-left: 20%;
+    margin-left: 0%;
     /* margin-left: 16px; */
 }
 
@@ -103,29 +105,29 @@ ul{
     line-height: 32px;
     font-size: 17px;
     color: #A5B0EA;
-    margin-left: 20%;
+    margin-left: 0%;
 }
 
  .circle-imag{
     background: linear-gradient(180deg, rgba(0, 51, 153, 0) 14.32%, rgba(0, 51, 153, 0.56) 100%);
     border-radius: 50%;
-    height: 99vh;
+    height: 85vh;
+    width: 100vh !important;
     position: relative;
-    left: 30px;
+    left: 130px;
 } 
 
 .jj-img{
-    width: 80%;
-    margin-left: 30px;
-    margin-top: 14%;
+    width: 84%;
+    margin-left: 20px;
+    margin-top: 12%;
 }
 
 .scroll-img{
     position: relative;
-    top: 10%;
-    /* margin-top: 6px; */
+    top: 5%;
     width: 20%;
-    margin-left: 21%;
+    margin-left: 0%;
 }
 
 
