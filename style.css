@@ -118,7 +118,7 @@ ul{
 
 .scroll-img{
     position: relative;
-    top: 5%;
+    top: 10%;
     width: 20%;
     margin-left: 0%;
 }
@@ -126,7 +126,7 @@ ul{
 
 .automation-img-1{
     width: 90%;
-    margin-top: 12%;
+    margin-top: 0%;
     /* margin-left: 20%; */
 }
 
@@ -164,7 +164,7 @@ ul{
     font-size: 48px;
     line-height: 81px;
     color: #FFFFFF;
-    margin-top: 40%;
+    margin-top: 0%;
 }
 
 .automation-para{
@@ -268,7 +268,8 @@ span{
 .smart-home, .access, .door, .LED, .light{
     cursor: pointer;
     padding: 20px;
-    /* height: 110%; */
+    width: 86%;
+    border-radius: 10px;
 }
 
 .smart-home:before, .access:before,
@@ -300,6 +301,8 @@ span{
     box-shadow: 5px 10px 18px #dfd3d3;
     transform: translateY(20px);
     opacity: 1;
+    width: 79%;
+    padding: 20px;
 }
 
 .smart-home:hover .smart-home-para-2, .access:hover
@@ -721,8 +724,9 @@ ul{
     width: 40px;
     float: right;
     position: relative;
-    bottom: 27%;
+    bottom: 62vh !important;
     right: 10%;
+    position: fixed;
 }
 
 .scroll-mobile{
@@ -1151,8 +1155,9 @@ ul{
     width: 40px;
     float: right;
     position: relative;
-    bottom: 27%;
+    bottom: 62vh !important;
     right: 10%;
+    position: fixed;
 }
 
 .scroll-mobile{
