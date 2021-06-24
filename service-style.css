@@ -359,8 +359,9 @@ li{
     margin: 13px;
 }
 
+
 .nav-logo{
-    width: 30%;
+    width: 75%;
     position: relative;
     right: 3% !important;
 }
@@ -545,8 +546,9 @@ ul{
         line-height: 60px;
     }
 
+   
     .nav-logo{
-        width: 30%;
+        width: 75%;
         position: relative;
         right: 3% !important;
     }
@@ -731,8 +733,9 @@ ul{
         line-height: 60px;
     }
 
+   
     .nav-logo{
-        width: 30%;
+        width: 75%;
         position: relative;
         right: 3% !important;
     }

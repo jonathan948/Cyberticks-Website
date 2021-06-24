@@ -241,12 +241,11 @@ input[type=text], select, textarea {
     padding: 0px;
     padding-top: 30px;
     padding-bottom: 50px;
-    font-size: 18px;
 }
 
 .fit{
     margin: 0 auto;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .fa{
@@ -349,11 +348,11 @@ ul{
 
 @media(max-width: 540px){
 
-    li{
-        margin: 14px;
-        width: 40%;
-        line-height: 60px;
-    }
+li{
+    width: 40%;
+    line-height: 60px;
+    margin: 14px;
+}
     
 .ab-pro{
     height: 50px;
@@ -369,9 +368,9 @@ ul{
 }
 
 .nav-logo{
-    width: 30% !important;
     position: relative;
     right: 3% !important;
+    width: 75%;
 }
 
 .footer-logo{
@@ -520,9 +519,9 @@ input[type=submit] {
     }
     
     .nav-logo{
-        width: 30% !important;
         position: relative;
         right: 3% !important;
+        width: 75%;
     }
     
     .footer-logo{

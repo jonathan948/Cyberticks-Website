@@ -375,9 +375,11 @@ input[type=text], select, textarea {
 }
 
 @media(max-width: 1024px){
+
 .nav-logo{
-    width: 30%;
-    margin-top: 1%;
+    position: relative;
+    right: 3% !important;
+    width: 75%;
 }
 
     
@@ -537,8 +539,9 @@ display: block;
 @media(max-width: 768px){
 
     .nav-logo{
-        width: 30%;
-        margin-top: 4%;
+        width: 75%;
+        position: relative;
+        right: 3% !important;
     }
 
     .fit{
@@ -724,8 +727,8 @@ display: block;
         line-height: 60px;
     }
 
-    .cyber-logo{
-        width: 30% !important;
+    .nav-logo{
+        width: 70%;
         position: relative;
         right: 3% !important;
     }
@@ -950,8 +953,9 @@ li{
     line-height: 60px;
     margin: 13px;
 }
-.cyber-logo{
-    width: 30%;
+
+.nav-logo{
+    width: 70%;
     position: relative;
     right: 3% !important;
 }
@@ -1171,6 +1175,12 @@ ul{
 }
 
 @media(max-width: 360px){ 
+
+.nav-logo{
+    position: relative;
+    right: 3% !important;
+    width: 70%;
+}
 li{
     width: 40%;
     line-height: 60px;

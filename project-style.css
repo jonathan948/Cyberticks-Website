@@ -264,14 +264,14 @@ input[type=text], select, textarea {
     padding: 0px;
     padding-top: 30px;
     padding-bottom: 50px;
-    font-size: 18px;
+    font-size: 16px !important;;
 }
 
 .fit{
     margin: 0 auto;
-    font-size: 15px;
-
+    font-size: 15px !important;
 }
+
 
 .mobile{
     display: none;
@@ -389,11 +389,10 @@ ul{
 }
 }
 @media(max-width: 540px){
-
 .get-logo{
-    width: 30% !important;
     position: relative;
     right: 3% !important;
+    width: 75%;
 }
 
 .footer-logo{
@@ -524,9 +523,9 @@ li{
 @media(max-width: 520px){
 
     .get-logo{
-        width: 30% !important;
         position: relative;
         right: 3% !important;
+        width: 75%;
     }
     
     .footer-logo{
@@ -724,9 +723,9 @@ input[type=submit] {
 }
 
 .get-logo{
-    width: 30% !important;
     position: relative;
     right: 3% !important;
+    width: 75%;
 }
 
 .item{
