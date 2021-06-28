@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
 span{
     color: #00D1FF;
 }
@@ -122,31 +120,75 @@ color: white;
     padding-top: 10%;
 }
 
-.item-1, .item-2, .item-3, .item-4, .item-5, .item-6, .item-7, .item-8{
+.item-1, .item-2, .item-3, .item-5, .item-6, .item-7{
     width: 100%;
 }
 
-.item-1{
-  margin-left: 1rem;
-  margin-top: 3px;
-}
-
-.item-3, .item-5, .item-7{
+.item-5, .item-7{
   margin-left: 1rem;
 
 }
 
-.item-2, .item-4, .item-6, .item-8{
-  /* margin-right: 4%; */
-  position: relative;
-  right: 1rem;
+.vid-2{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 1rem;
+}
+
+.vid-3{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    right: 1rem;
+    bottom: 2rem;
+}
+
+.vid-4{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 1rem;
+    bottom: 7rem;
+}
+
+.vid{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    right: 1rem;
+    bottom: 6rem;
+}
+
+.item-3{
+    position: relative;
+    left: 1rem;
+    bottom: 5rem;
+}
+
+.item-2{
+    position: relative;
+    right: 1rem;
+    top: 20px;
+}
+
+.item-6{
+    position: relative;
+    right: 1rem;
+    bottom: 4rem;
+}
+
+.item-7{
+    position: relative;
+    left: 0rem;
+    bottom: 9rem;
 }
 
 .item-2{
     margin-top: 18%;
 }
 
-.item-5, .item-7, .item-8{
+.item-5, .item-8{
     position: relative;
     bottom: 23%;
 }
@@ -388,7 +430,7 @@ ul{
     height: 27vh;
 }
 }
-@media(max-width: 540px){
+ @media(max-width: 540px){
 .get-logo{
     position: relative;
     right: 3% !important;
@@ -462,15 +504,12 @@ li{
     display: block;
 }
     
-.item-1, 
+    
 .item-2, 
-.item-3, 
-.item-4, 
-.item-5, 
+.item-3,  
 .item-6, 
-.item-7, 
-.item-8{
-    width: 99%;
+.item-7{
+    width: 100%;
     margin: 0 auto;
     display: block;
     border-radius: 0px; 
@@ -480,37 +519,69 @@ li{
     margin: 0px;
 }
 
-.item-1{
-    margin-left: 0rem;
-    margin-top: 0px;
-    margin: 0 auto;
-    display: block;
-}
-
 .item-2{
     margin-top: 0%;
-}
-
-.item-2, 
-.item-4, 
-.item-6, 
-.item-8{
     position: relative;
+    top: 9rem !important;
     right: 0rem;
 }
 
-.item-3, 
-.item-5, 
+.item-3{
+    position: relative;
+    top: 8rem !important;
+    left: 0rem;
+}
+
+.item-6{
+    position: relative;
+    right: 0rem;
+    top: 24rem;
+}
+
+.item-7{
+    position: relative;
+    right: 0rem;
+    top: 23rem;
+}
+
+.vid-2{
+    width: 100%;
+    height: 200%;
+    position: relative;
+    left: 0rem;
+}
+
+.vid-3{
+    width: 100%;
+    height: 200%;
+    position: relative;
+    right: 0rem;
+    top: 7rem;
+}
+
+.vid-4{
+    width: 100%;
+    height: 200%;
+    position: relative;
+    left: 0rem;
+    top: 15rem;
+}
+
+.vid{
+    width: 100%;
+    height: 200%;
+    position: relative;
+    right: 0rem;
+    top: 20rem;
+}
+
 .item-7{
     margin-left: 0rem;
     margin: 0 auto;
 }
 
-.item-5, 
-.item-7, 
-.item-8{
-    position: relative;
-    bottom: 0%;
+.tell-us-sec{
+    margin-top: 380px;
 }
 .ge-row{
     background-image: url("./Image/background-img-about.svg");
@@ -519,7 +590,7 @@ li{
     background-size: 450px;
     height: 27vh;
 }
-}
+} 
 @media(max-width: 520px){
 
     .get-logo{
@@ -591,15 +662,11 @@ li{
         display: none;
     }
         
-    .item-1, 
     .item-2, 
-    .item-3, 
-    .item-4, 
-    .item-5, 
+    .item-3,  
     .item-6, 
-    .item-7, 
-    .item-8{
-        width: 99%;
+    .item-7{
+        width: 100%;
         margin: 0 auto;
         display: block;
         border-radius: 0px; 
@@ -609,38 +676,71 @@ li{
         margin: 0px;
     }
     
-    .item-1{
-        margin-left: 0rem;
-        margin-top: 0px;
-        margin: 0 auto;
-        display: block;
-    }
-    
     .item-2{
         margin-top: 0%;
-    }
-    
-    .item-2, 
-    .item-4, 
-    .item-6, 
-    .item-8{
         position: relative;
+        top: 3rem !important;
         right: 0rem;
     }
-    
-    .item-3, 
-    .item-5, 
+
+    .item-3{
+        position: relative;
+        top: 3rem !important;
+        left: 0rem;
+    }
+
+    .item-6{
+        position: relative;
+        right: 0rem;
+        top: 9rem;
+    }
+
+    .item-7{
+        position: relative;
+        right: 0rem;
+        top: 9rem;
+    }
+
+    .vid-2{
+        width: 100%;
+        height: 135%;
+        position: relative;
+        left: 0rem;
+    }
+
+    .vid-3{
+        width: 100%;
+        height: 135%;
+        position: relative;
+        right: 0rem;
+        top: 3rem;
+    }
+
+    .vid-4{
+        width: 100%;
+        height: 135%;
+        position: relative;
+        left: 0rem;
+        top: 6rem;
+    }
+
+    .vid{
+        width: 100%;
+        height: 135%;
+        position: relative;
+        right: 0rem;
+        top: 9rem;
+    }
+
     .item-7{
         margin-left: 0rem;
         margin: 0 auto;
     }
-    
-    .item-5, 
-    .item-7, 
-    .item-8{
-        position: relative;
-        bottom: 0%;
+
+    .tell-us-sec{
+        margin-top: 150px;
     }
+    
     .ge-row{
         background-image: url("./Image/background-img-about.svg");
         background-repeat: no-repeat;
@@ -707,6 +807,82 @@ input[type=submit] {
     background-size: 420px;
     height: 24vh;
 }
+
+
+.item-2, 
+.item-3,  
+.item-6, 
+.item-7{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 0px; 
+}
+
+.item-col{
+    margin: 0px;
+}
+
+.item-2{
+    margin-top: 0%;
+    position: relative;
+    top: 3rem !important;
+    right: 0rem;
+}
+
+.item-3{
+    position: relative;
+    top: 2rem !important;
+    left: 0rem;
+}
+
+.item-6{
+    position: relative;
+    right: 0rem;
+    top: 6rem;
+}
+
+.item-7{
+    position: relative;
+    right: 0rem;
+    top: 5rem;
+}
+
+.vid-2{
+    width: 100%;
+    height: 135%;
+    position: relative;
+    left: 0rem;
+}
+
+.vid-3{
+    width: 100%;
+    height: 135%;
+    position: relative;
+    right: 0rem;
+    top: 1rem;
+}
+
+.vid-4{
+    width: 100%;
+    height: 135%;
+    position: relative;
+    left: 0rem;
+    top: 3rem;
+}
+
+.vid{
+    width: 100%;
+    height: 135%;
+    position: relative;
+    right: 0rem;
+    top: 4rem;
+}
+
+.item-7{
+    margin-left: 0rem;
+    margin: 0 auto;
+}
     
 .btn{
     width: 40%;
@@ -770,6 +946,84 @@ input[type=submit] {
     background-position: center;
     background-size: 420px;
     height: 27vh;
+}
+.item-2, 
+.item-3,  
+.item-6, 
+.item-7{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 0px; 
+}
+
+.item-col{
+    margin: 0px;
+}
+
+.item-2{
+    margin-top: 0%;
+    position: relative;
+    top: 2rem !important;
+    right: 0rem;
+}
+
+.item-3{
+    position: relative;
+    top: 2rem !important;
+    left: 0rem;
+}
+
+.item-6{
+    position: relative;
+    right: 0rem;
+    top: 5rem;
+}
+
+.item-7{
+    position: relative;
+    right: 0rem;
+    top: 4rem;
+}
+
+.vid-2{
+    width: 100%;
+    height: 135%;
+    position: relative;
+    left: 0rem;
+}
+
+.vid-3{
+    width: 100%;
+    height: 135%;
+    position: relative;
+    right: 0rem;
+    top: 1rem;
+}
+
+.vid-4{
+    width: 100%;
+    height: 135%;
+    position: relative;
+    left: 0rem;
+    top: 3rem;
+}
+
+.vid{
+    width: 100%;
+    height: 135%;
+    position: relative;
+    right: 0rem;
+    top: 3rem;
+}
+
+.item-7{
+    margin-left: 0rem;
+    margin: 0 auto;
+}
+
+.tell-us-sec{
+    margin-top: 130px;
 }
     
 .btn{
@@ -861,7 +1115,86 @@ input[type=submit] {
         background-position: center;
         background-size: 360px;
         height: 27vh;
-    }
+}
+
+.item-2, 
+.item-3,  
+.item-6, 
+.item-7{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 0px; 
+}
+
+.item-col{
+    margin: 0px;
+}
+
+.item-2{
+    margin-top: 0%;
+    position: relative;
+    top: 2rem !important;
+    right: 0rem;
+}
+
+.item-3{
+    position: relative;
+    top: 2rem !important;
+    left: 0rem;
+}
+
+.item-6{
+    position: relative;
+    right: 0rem;
+    top: 2rem;
+}
+
+.item-7{
+    position: relative;
+    right: 0rem;
+    top: 2rem;
+}
+
+.vid-2{
+    width: 100%;
+    height: 135%;
+    position: relative;
+    left: 0rem;
+}
+
+.vid-3{
+    width: 100%;
+    height: 135%;
+    position: relative;
+    right: 0rem;
+    top: 0rem;
+}
+
+.vid-4{
+    width: 100%;
+    height: 135%;
+    position: relative;
+    left: 0rem;
+    top: 0rem;
+}
+
+.vid{
+    width: 100%;
+    height: 135%;
+    position: relative;
+    right: 0rem;
+    top: 0rem;
+}
+
+.item-7{
+    margin-left: 0rem;
+    margin: 0 auto;
+}
+
+.tell-us-sec{
+    margin-top: 130px;
+}
         
     .btn{
         width: 40%;
