@@ -12,12 +12,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 
     <link rel="stylesheet" href="about-style.css">
 
@@ -34,7 +34,9 @@
             <nav>
                 <div class="box container">
                     <nav class="navbar navbar-expand-lg">
+                        <a href="index.html">
                         <img class="nav-logo" src="./Image/navlogo.svg" alt="">
+                        </a>
 
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -74,7 +76,7 @@
         <section class="about-sec">
             <div class="container">
 
-                    <p class="about-text-mobile">Cyberticks Integrated Solutions is aimed at improving the lives of individuals and
+                    <p class="about-text-mobile" data-aos="fade-left">Cyberticks Integrated Solutions is aimed at improving the lives of individuals and
                             businesses by
                             developing
                             solutions to everyday problems. We believe when creativity, technology and dedication
@@ -90,10 +92,10 @@
                             Hardware developers,
                             programmers and business developers are all driven by a common goal to install excellence in
                             businesses 
-                            and enterprises.</p>
+                    and enterprises.</p>
 
 
-                <p class="about-text-desktop">Cyberticks Integrated Solutions is aimed at improving the lives of individuals and
+                <p class="about-text-desktop" data-aos="fade-left">Cyberticks Integrated Solutions is aimed at improving the lives of individuals and
                     businesses by
                     developing
                     solutions to everyday problems. We believe when creativity, technology and dedication
@@ -175,20 +177,20 @@
             </div>
 
             <div class="row mission-row mission-mobile">
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-aos="fade-up">
                         <h1 class="mission-head">OUR <span>MISSION</span> </h1>
                         <p class="mission-para">Improving the lives of individuals and businesses
                             by developing solutions to everyday problems.</p>
                     </div>
     
-                    <div class="col-md-6 vision-col">
+                    <div class="col-md-6 vision-col" data-aos="fade-down">
                         <h1 class="vision-head">OUR <span>VISION</span> </h1>
                         <p class="vision-para">To be the number one leading Automation solution
                             providers in Africa and beyond.</p>
                     </div>
                 </div>
 
-            <div class="row mission-row mission-desktop">
+            <!-- <div class="row mission-row mission-desktop">
                 <div class="col-md-6">
                     <h1 class="mission-head">OUR <span>MISSION</span> </h1>
                     <p class="mission-para">Improving the lives of individuals and businesses <br>
@@ -200,7 +202,7 @@
                     <p class="vision-para">To be the number one leading Automation solution <br>
                         providers in Africa and beyond.</p>
                 </div>
-            </div>
+            </div> -->
         </div>
 
 
@@ -238,13 +240,13 @@
                 </div>
     
                 <div class="row mission-row">
-                    <div class="col-md-6 miss-col">
+                    <div class="col-md-6 miss-col" data-aos="fade-right">
                         <h1 class="mission-head">OUR <span>MISSION</span> </h1>
                         <p class="mission-para">Improving the lives of individuals and businesses <br>
                             by developing solutions to everyday problems.</p>
                     </div>
     
-                    <div class="col-md-6 vision-col">
+                    <div class="col-md-6 vision-col" data-aos="fade-left">
                         <h1 class="vision-head">OUR <span>VISION</span> </h1>
                         <p class="vision-para">To be the number one leading Automation solution <br>
                             providers in Africa and beyond.</p>
@@ -272,11 +274,11 @@
                     <table class="mt-3">
                         <tr>
                             <th><a href=""><img class="item-image" src="./Image/call-icon.svg" alt=""></a> </th>
-                            <td><a href=""><span class="item">+234 810 638 7234 </span></a> </td>
+                            <td><a href=""><span class="item">09133097041 </span></a> </td>
                         </tr>
                         <tr>
                             <th><a href=""><img class="item-image" src="./Image/envelop.svg" alt=""></a> </th>
-                            <td><a href=""><span class="item">Hello@cyberticks.com</span></a></td>
+                            <td><a href=""><span class="item">CONTACT@CYBERTICKS.COM </span></a></td>
                         </tr>
 
                         <tr>
@@ -381,6 +383,13 @@
         </footer>
     </section>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+        offset: 200,
+        duration: 1000
+    });
+    </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
