@@ -159,7 +159,7 @@ ul{
     width: 20%;
     float: right;
     position: relative;
-    bottom:  0%;
+    bottom:  10%;
     left: 8%;
 }
 
@@ -1649,7 +1649,7 @@ li{
     font-size: 33px;
     line-height: 81px;
     text-align: center;
-    margin-top: 20%;
+    margin-top: 7%;
 }
 
 .client-col{
@@ -2071,7 +2071,7 @@ ul{
     font-size: 33px;
     line-height: 81px;
     text-align: center;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 .client-col{
@@ -2533,7 +2533,7 @@ input[type=submit] {
     font-size: 30px;
     line-height: 81px;
     text-align: center;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 .client-col{
@@ -2636,6 +2636,7 @@ input[type=submit] {
     color: #A5B0EA;
     padding: 2px;
     margin-bottom: 49px;
+    padding: 0;
 }
 
   .header-main-2{
@@ -2973,7 +2974,7 @@ input[type=submit] {
     font-size: 30px;
     line-height: 81px;
     text-align: center;
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 .client-col{
@@ -3074,7 +3075,7 @@ input[type=submit] {
     line-height: 32px;
     text-align: center;
     color: #A5B0EA;
-    padding: 2px;
+    padding: 0px;
     margin-bottom: 49px;
 }
 
