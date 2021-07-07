@@ -16,12 +16,13 @@
 
 .nav{
     margin: 0;
+    padding: 0;
 }
 
 .cyber-logo{
     /* margin-right: 0%; */
     position: relative;
-    right: 19px;
+    right: 0px;
 
 }
 
@@ -1429,12 +1430,23 @@ ul{
 @media(max-width: 540px){
 
     /* NAVBER SECTION */
+
+/* mobile nav */
+
+/* DESKTOP NAV */
+
+.nav{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
 ul{
     display: block;
     margin: 20px;
 }
 
-/* DESKTOP NAV */
 .nav{
     margin: 0;
 }
