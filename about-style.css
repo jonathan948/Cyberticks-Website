@@ -19,6 +19,16 @@ a{
     text-decoration: none;
 }
 
+.list-item {
+    margin-top: 3px;
+}
+
+.nav-logo{
+    width: 140%;
+}
+
+/* ABOUT SECTION */
+
 .about-head{
     font-family: Oswald;
     font-style: normal;
